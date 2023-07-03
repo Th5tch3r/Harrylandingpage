@@ -5,3 +5,98 @@
 .cards img {
     height: 100px;
 }
+
+/* margin: 0; makes the background color fully covers, without having white spaces around */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+header {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-left: 10%;
+    height: 40px;
+    width: auto;
+}
+
+header ul {
+    padding-right: 10%;
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    padding: 0 8px;
+}
+
+header ul li a, .intro .texts #des {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header ul li a:hover {
+    color: #3882F6;
+}
+
+.blue_background {
+    background-color: #1F2937;
+    /* padding-bottom: 40px; */
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 20px; */
+}
+
+.intro .texts {
+    padding-left: 10%;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.intro img {
+    padding-right: 10%;
+    align-items: center;
+    width: auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.intro .texts #head {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.intro .texts button {
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.intro .texts button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+    cursor: pointer;
+}
