@@ -190,3 +190,43 @@ header ul li a:hover {
     font-size: 22px;
     font-weight: bold;
 }
+
+/* Donate CSS */
+.donate {
+    background-color: #3882F6;
+    margin: 80px 20%;
+    padding: 40px 90px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+    align-items: center;
+}
+
+.donate .donate_info .des_1 {
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.donate .donate_info .des_2 {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/* border-style: solid resolves the issue of button border having 2 colors */
+.donate .donate_button button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    box-shadow: none;
+    padding: 10px 30px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    color: #F9FAF8;
+    font-size: 20px;
+}
+
+.donate .donate_button button:hover {
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
