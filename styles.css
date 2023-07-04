@@ -157,3 +157,36 @@ header ul li a:hover {
     color: gray;
     padding-top: 8px;
 }
+
+/* Quote section CSS */
+.quote {
+    background-color: #E5E7EB;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quote .meow {
+    height: 200px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    padding-left: 20%;
+    padding-right: 20%;
+    flex: 1;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote .author {
+    align-self: flex-end;
+    padding-right: 25%;
+    font-size: 22px;
+    font-weight: bold;
+}
